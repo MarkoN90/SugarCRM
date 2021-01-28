@@ -1,0 +1,3 @@
+Wed Jan 27 22:51:17 2021 [3035][1][FATAL] SugarPHPMailer encountered an error: An outgoing mail server is not configured to send emails. Please configure an outgoing mail server or select an outgoing mail server for the mail account that you are using in Settings >> Mail Account.
+Wed Jan 27 22:51:17 2021 [3035][1][FATAL] SugarPHPMailer encountered an error: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+Wed Jan 27 22:52:18 2021 [3035][1][FATAL] SUGAREMAILADDRESS: address did not validate [ admin ]
