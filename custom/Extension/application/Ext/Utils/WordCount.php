@@ -1,14 +1,20 @@
 <?php
 
+
 	function wordCount($text){
 
-		if(!is_string($text))
+		$text = trim($text);
+
+		if(!is_string($text) || empty($text))
 		{
-			return 0;
+ 			return 0;
 		}
 
-   	$text  = explode(" " , $text);
-   	return (int) (count($text));
-	}
+	 $text = preg_replace('/\s+/', ' ', $text);
+
+ 	 $text  = explode(" " , $text);
+ 	 return (int) (count($text));
+}
+
 
  ?>
